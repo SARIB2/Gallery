@@ -1,0 +1,333 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400&display=swap');
+
+body {
+    direction: rtl;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#container {
+    width: 1280px;
+    margin: auto;
+    background-image: url('../images/bg.jpg');
+    height: auto;
+}
+
+#containersite {
+    width: 1280px;
+    margin: auto;
+    background-image: url('../images/bg.jpg');
+    height: 900px;
+}
+
+.mainContant {
+    position: relative;
+    padding-right: 30px;
+}
+
+.mainTitle {
+    padding: 15px;
+    padding-right: 30px;
+    font-size:2.7em;
+    position: relative;
+    top: 80px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+}
+
+#mainNav img {
+    height: 20px;
+    width: 20px;
+}
+
+.secondTitle {
+    padding: 15px;
+    font-size: 2em;
+    position: relative;
+    top: 80px;
+    font-family: 'Amatic SC';
+}
+
+#mainNav {
+    position: fixed;
+    background-color: #FAECDD;
+    width: 1280px;
+    height: 60px;
+    z-index: 2000;
+}
+#mainNav > ul > li {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    font-family: 'Amatic SC', cursive;
+    font-weight:900;
+}
+#mainNav > ul {
+    position: relative;
+    top: 18px;
+    margin:auto;
+    width:700px;
+
+}
+
+#mainNav ul li ul {
+    display: none;
+    position: absolute;
+    padding-right: 0px;
+    top: 40px;
+    width: 100px;
+    border: 0.5px solid #FAE1E4;
+    border-top:0px;
+    border-radius:0px 0px 30px 30px ;
+    background-color:#FAECDD;
+    filter: drop-shadow(2px 2px 2px #bdafa5);
+}
+
+#mainNav ul li ul li {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+}
+
+#mainNav ul li:hover ul {
+    display: block;
+}
+
+#mainNav ul li ul li:hover {
+    background-color:#FBF8F0;
+}
+
+#mainNav > ul > li > a {
+text-decoration: none;
+color: #dc7876;
+font-size: 1.6em;
+}
+
+#mainNav > ul > li ul a {
+    color: #dc7876;
+    font-size: 1.2em;
+}
+
+#mainNav ul li:hover ul {
+    display: block;
+}
+
+#mainNav ul li ul li:hover {
+    background-color: #FBF8F0;
+}
+
+#mainNav ul li ul li:last-child:hover {
+    border-radius: 0px 0px 30px 30px;
+}
+
+.breadCrumbs li {
+    content: "<";
+    padding-right: 80px;
+    display: inline-block;
+    font-size: 1em;
+    padding-bottom: 5px;
+    position: relative;
+    top: 80px;
+    left: 13px;
+    font-family: 'Assistant';
+    padding: 1px;
+    text-decoration-line: underline;
+    z-index: 100;
+}
+
+.breadCrumbs li:last-child {
+    text-decoration: none !important;
+    color: #DC7876;
+}
+
+.breadCrumbs li:last-child::after {
+    content: ":";
+    
+}
+
+.categories {
+    padding: 12px;
+    border-left: 0.5px solid black;
+    display: inline-block;
+    position: relative;
+    top: 93px;
+
+}
+
+.lastCategory{
+    border:none;
+}
+
+.categories p {
+    padding: 5px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+#iceCream1 {
+    width: 17%;
+    height: auto;
+    max-width: 400px;
+    float: left;
+    right: 900px;
+    position: absolute;
+    top: 120px;
+    filter: drop-shadow(2px 2px 2px #bdafa5 );
+}
+
+.ingridient li {
+    position: relative;
+    top: 70px;
+    padding: 20px;
+    font-size: 1em;
+    font-family: 'Assistant', sans-serif;
+    list-style-image: url('../images/icons8-ice-cream-cone-16.png');
+}
+.middle {
+    text-align: center;
+    position: relative;
+    top: 82px;
+}
+#Preper {
+    width:800px;
+}
+
+.addInfo li {
+    display: inline-block;
+    position: relative;
+    right: 179px;
+    margin: 35px;
+    font-family: 'Assistant', sans-serif;
+    height: 100px;
+    width: 181px;
+    top: 58px;
+    border-radius: 8px;
+    filter: drop-shadow( 4px 4px 4px #bdafa5 );
+    text-align: center;
+}
+
+.addInfo {
+    height:250px;
+}
+.tasteImg {
+    width: 85%;
+    height: auto;
+    max-width: 400px;
+}
+
+.addInfo li:hover a img {
+    display: inline-block;
+    height: 120px;
+    width: 201px;
+}
+
+#footernav {
+    background-color: #FAECDD;
+    height: 60px;
+    position: relative;
+    top:60px;
+}
+
+#footernav ul {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 340px;
+    height: 20px;
+    top: 20px;
+    right:50px;
+}
+
+#footernav ul li {
+    display: inline-block;
+    float: right;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 900;
+    margin: 0 auto;
+}
+
+#footernav ul li a {
+    color: #dc7876;
+    font-size: 1.4em;
+
+}
+
+#footernav ul li:first-child:after, #footernav ul li:nth-child(2):after {
+    content: "|";
+    padding-left: 20px;
+    padding-right: 21px;
+    color: #dc7876; 
+
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#bagel1 {
+    width: 35%;
+    height: auto;
+    max-height:500px;
+    float: left;
+    right: 718px;
+    position: absolute;
+    top: 139px;
+    filter: drop-shadow( 4px 4px 4px #bdafa5 );
+}
+}
+
+#mapNav {
+    height: 600px;
+
+}
+
+.notActive {
+    cursor: not-allowed
+}
+
+#mapNav .notActive {
+    color: lightgray;
+}
+
+#mapNav ul:first-child > li > a {
+    font-weight: 700;
+    color: #DC7876;
+}
+
+#mapNav ul li ul li:first-child {
+    padding-top: 20px;
+}
+
+#mapNav ul li {
+    margin-bottom: 10px;
+    width: 80px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 900;
+}
+
+#mapNav ul:first-child > li {
+    float: right;
+    margin-right: 30px;
+    position: relative;
+    top: 150px;
+    right: 100px;
+}
+
+#mapNav ul li ul {
+    padding: 0px;
+}
+
+#mapNav a {
+    font-size: 1.5em;
+}
+
+.mainheigth {
+    height: 740px;
+}
